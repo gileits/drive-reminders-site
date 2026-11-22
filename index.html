@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Drive Reminders</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>⏰ Drive Reminders</h1>
+  <p class="lead">A small personal reminder tool: create reminders in a Chrome extension, and an Android app rings for them at the set time.</p>
+
+  <h2>How it works</h2>
+  <ol>
+    <li>The <b>Chrome extension</b> creates one-time or repeating reminders.</li>
+    <li>They are stored in one file in the <b>hidden app folder of your own Google Drive</b>. No other server is involved.</li>
+    <li>The <b>Android app</b> reads that file, sets a local alarm for each reminder, and plays a short sound with a notification that stays until you tap <i>Done</i> or <i>Snooze</i>.</li>
+  </ol>
+
+  <h2>Google account access</h2>
+  <p>Both apps ask for one permission: <code>drive.appdata</code>, described by Google as <i>"See, create, and delete its own configuration data in your Google Drive"</i>. It covers only the app's own hidden folder. The apps cannot see your other Drive files, email or contacts.</p>
+
+  <p><a href="privacy.html">Privacy policy</a></p>
+</main>
+</body>
+</html>
